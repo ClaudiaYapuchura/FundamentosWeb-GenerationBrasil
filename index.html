@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -14,29 +15,55 @@
             <a href="contato.html">contato</a>
         </li>
     </ul>
-    <h1>Sobre a Claudia</h1>
+    <h1 class="center">Sobre a Claudia</h1>
+    <div class="container">
+        <div>
+            <img class="imagem wh-300 texto" src="assets/img/foto.png" alt="foto de Claudia"> 
+        </div>
         
-    <p>
-        Olá, tudo bem?
-        Eu sou a Claudia e sou uma jovem em busca de aprendizados pelo Mundo. Sou estudante de Tecnologia em Automação Industrial, aprendi muito com área e carrego valiosos valores que adquiri no curso e no Grupo de Robótica, porém, quero ir além e ter novas jornadas...
-    </p>
+        <div class="texto">
+            <p class="justify">
+                Olá, tudo bem?
+                Eu sou a Claudia e sou uma jovem em busca de aprendizados pelo Mundo. Sou estudante de Tecnologia em Automação Industrial, aprendi muito com área e carrego valiosos valores que adquiri no curso e no Grupo de Robótica, porém, quero ir além e ter novas jornadas...
+            </p>
+        
+            <p class="justify">       
+                Uma dessas jornadas me refiro a tecnologia, área, no qual estou há 1 ano, venho obtendo maravilhosas experiências e obtive aprendizados como HTML, CSS, JS, GitHub, Python, Django, lógica de programação e atualmente estou aprendendo Java através da Generation Brasil.
+                De toda essa jornada devo confessar que sigo apaixonada cada dia mais pela tecnologia e possibilidades. Bom, posso dizer que é um mix de áreas que dá super certo!
+            </p>
+        </div>
+        
+    </div>
 
-    <p>       
-        Uma dessas jornadas me refiro a tecnologia, área, no qual estou há 1 ano, venho obtendo maravilhosas experiências e obtive aprendizados como HTML, CSS, JS, GitHub, Python, Django, lógica de programação e atualmente estou aprendendo Java através da Generation Brasil.
-        De toda essa jornada devo confessar que sigo apaixonada cada dia mais pela tecnologia e possibilidades. Bom, posso dizer que é um mix de áreas que dá super certo!
-    </p>
+    <h2 class="center">Minha banda favorita:</h2>
+    <div class="container mb-50">
+        <iframe width="560"
+        height="315" 
+        src="https://www.youtube.com/embed/gOsM-DYAEhY" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        ></iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/claudia.syapuchura">
+                <img class="tm-social texto" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
 
-    <img src="assets/img/foto.png" alt="foto de Claudia">
+            <a href="https://www.linkedin.com/in/claudia-yapuchura-saire/">
+                <img class="tm-social texto" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
 
-    <h2>Minha banda favorita:</h2>
+            <a href="https://www.instagram.com/ys_claudia/">
+                <img class="tm-social texto" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        </div>
 
-    <iframe width="560"
-    height="315" 
-    src="https://www.youtube.com/embed/gOsM-DYAEhY" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen
-    ></iframe>
-
+        <p class="center">
+            Todos os direitos reservados para: Claudia Yapuchura &copy
+        </p>
+    </footer>
 </body>
 </html>
