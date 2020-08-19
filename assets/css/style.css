@@ -26,7 +26,8 @@ h1.center {
     align-items: center;
     background-color:#6EB4B8;
     font-family: 'Balsamiq Sans', cursive;
-    font-size: 16pt;
+    font-size: 10pt;
+    border-radius: 1.5%;
 }
 
 img {
