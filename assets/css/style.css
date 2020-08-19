@@ -1,6 +1,13 @@
 /*Estilos da página index.html*/
+body{
+    background-color:#079992;
+    margin: 0;
+
+}
+
 .center {
     text-align: center;
+    color:#0C6161;
 }
 
 .justify {
@@ -12,6 +19,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    background-color:#6EB4B8;
 }
 
 img {
@@ -29,15 +37,19 @@ img {
 #menu li a {
     font-size: 30px;
     text-decoration: none;
-    color: brown;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #menu li a:hover {
-    color: grey;
+    color: gray;
+    font-family: 'Suez One', serif;
 }
 
 .texto {
     padding: 30px;
+    font-family: 'Suez One', serif;
+    font-size: 15pt;
 }
 
 .imagem {
